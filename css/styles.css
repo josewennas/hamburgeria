@@ -1,0 +1,48 @@
+@import url(header.css);
+@import url(carrossel.css);
+@import url(novidade.css);
+@import url(choose-enjoy.css);
+@import url(tres-hanburgeres.css);
+@import url(video.css);
+@import url(formulario.css);
+@import url(rodape.css);
+
+:root {
+    --cor-de-fundo: #ffffff;
+    --cor-do-cabecalho: #161614;
+    --font-osvald: 'Oswald';
+    --font-corpo-de-texto: 'Roboto Condensed';
+    --font-principal: 'Alfa Slab One';
+    --cor-das-fontes: #3d2514;
+    --botoes-amarelos:#ffc045;
+    --botoes-vermelhos: red;
+ 
+}
+
+body {
+    background: var(--cor-de-fundo);
+    font-family: var(--font-corpo-de-texto);
+    color: var(--cor-das-fontes);
+}
+
+.titulo-amarelo{
+    background-color: var(--botoes-amarelos);
+    padding: 0.5em 0.5em;
+    margin: 0 7em 0 7em;
+
+ 
+    color: var(--branco);
+
+
+}
+
+.titulo-vermelho{
+
+    background-color: var(--botoes-vermelhos);
+    padding: 0.5em 0.5em;
+    margin: 0 7em 0 7em;
+
+ 
+    color: #ffffff;
+
+}

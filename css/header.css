@@ -1,0 +1,29 @@
+.menu-hambuguer{
+    width: 30px;
+    height: 30px;
+    background-image: url(../img/Menu.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: inline-block;
+    margin: 0 0.5em 0 0.5em;
+  
+}
+
+.cabecalho{
+    background: var(--cor-do-cabecalho);
+    padding: 0.5em;
+    display: flex;
+    justify-content:space-between;
+}
+
+.conteiner{
+    display: flex;
+    align-items: center;
+}
+
+.conteiner__imagem{
+    padding: 0.5em;
+}
+
+/* ################################ FINAL DO MENU ######################################### */
+

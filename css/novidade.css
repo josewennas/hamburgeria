@@ -1,0 +1,46 @@
+.novidades {
+display: flex;
+
+margin: 8%;
+justify-content: center;
+align-items: center;
+}
+
+
+.novidade-imagem-em-destaque{
+width: 100%;
+}
+
+.novidade-imagem{
+    width: 90%;
+    display: block;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.novidade01{
+    margin: 0 0 1.4em 1em;
+
+}
+
+.novidade02{
+    margin: 0 0 0 1em;
+}
+/*
+.novidade-maior{
+    margin: 10px 5px 10px 6%;
+
+}
+
+.novidade-menor{
+    margin: 10px 5% 10px 5px;
+
+}
+
+.novidade-imagem01{
+    margin: 0 0 9px 0;
+
+}
+*/

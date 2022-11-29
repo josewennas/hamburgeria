@@ -1,0 +1,23 @@
+footer{
+	text-align: center;
+	background-image: url(../img/bg.jpg);
+       align-items: center;
+        color: #FFF;
+    padding: 100px 0px 100px 20px;
+    display: flex;
+
+}
+
+footer img{
+
+    width: 30%;
+    padding: 0 2em 0 0;
+
+} 
+    footer p{
+
+        font-weight: 100;
+        font-size: 60%;
+    }
+
+ 

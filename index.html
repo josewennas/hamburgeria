@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamburgueria</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body>
+
+    <header class="cabecalho">
+
+        <div class="conteiner">
+            <span class="menu-hambuguer"></span>
+            <a href="#"><img src="img/logo-hamburgueria.svg" alt="logo hamburgueria" width="30px"
+                    class="conteiner__imagem"></a>
+        </div>
+
+        <div class="conteiner">
+            <a href="#"><img src="img/delivery.svg" alt="delivery" width="35px" class="conteiner__imagem"></a>
+        </div>
+
+    </header>
+
+    <!--################## FIM DO HEADER #################################-->
+
+    <section class="carrossel">
+
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><a href="#"><img src="img/banner01.png" class="banner"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="img/banner02.png" class="banner"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="img/banner03.png" class="banner"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="img/banner04.png" class="banner"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="img/banner05.png" class="banner"></a></div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!--     If we need navigation buttons 
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>   -->
+
+            <!-- If we need scrollbar -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+    <!--################## FIM DO CARROSEL #################################-->
+
+    <section class="novidades">
+        <div class="novidade-maior">
+            <img src="img/BurgerImage.png" class="novidade-imagem-em-destaque" width="180px">
+        </div>
+
+
+        <div class="novidade-menor">
+            <img src="img/propo01.png" class="novidade-imagem novidade01" width="180px">
+            <img src="img/propo02.png" class="novidade-imagem novidade02" width="180px">
+        </div>
+
+
+    </section>
+
+    <!--################## FIM DAS NOVIDADES #################################-->
+
+    <section class="choose-enjoy">
+        <div class="titulo-amarelo">
+            <h2>Nossos Especiais</h2>
+        </div>
+        <div class="titulo-e-texto">
+            <h1>Escolha e Aproveite!</h1>
+            <p>
+                Nossos hambúrgeres especiais são os melhores para matar a sua fome. Deliciosos hambúrgueres feito com muito molho e carne caseira,
+                do jeito que só nós fazemos. Que tal escolher já qual você vai devorar?
+            </p>
+        </div>
+
+
+    </section>
+    <!--################## FIM DA CHOOSE ENJOY #################################-->
+    <section class="tres-hanburgeres">
+        <div class="hamburgueres">
+            <img src="img/burguer01.png" class="burguer01">
+            <h2>Cheddar Australiano</h2>
+            <p>Dois hambúrgueres bovinos num pão australiano levemente adocicado, com cheddar supercremoso e cebola caramelizada ao shoyu.</p>
+            <div class="titulo-vermelho">
+                <h3>Pedir Agora</h3>
+            </div>
+
+        </div>
+
+        <div class="hamburgueres">
+            <img src="img/burguer02.png" class="burguer02">
+            <h2>Cheese Belga</h2>
+            <p>Clássico que todo mundo gosta: Delicioso hambúrguer bovino com queijo num pão quentinho e um molho apimentado.</p>
+            <div class="titulo-vermelho">
+                <h3>Pedir Agora</h3>
+            </div>
+        </div>
+
+        <div class="hamburgueres">
+            <img src="img/burguer03.png" class="burguer03">
+            <h2>Chicken Bacon</h2>
+            <p>Pão brioche macio e quentinho, alface e tomate frescos cobertos com maionese tradicional e uma suculenta carne bovina de 150g.</p>
+            <div class="titulo-vermelho">
+                <h3>Pedir Agora</h3>
+            </div>
+
+        </div>
+
+
+    </section>
+
+    <!--################## FIM DA TRÊS HAMBURGERES #################################-->
+
+
+    <section class="video-institucional-hamburguer">
+        <iframe width="100%" height="250" src="https://www.youtube.com/embed/mauBY1cz4Vo?controls=0"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+
+        </iframe>
+    </section>
+
+    <!--######################## FIM  DO VIDEO #####################################-->
+    <div class="formulario-de-contatos">
+    <form class="formulario">
+        <h1 class="title"><i class="icon icon-mail-1"></i> Fale Conosco</h1>
+
+        <label class="label">
+            <span>Nome</span>
+            <input type="text" name="nome" class="campo" placeholder="Digite seu nome" required="" />
+        </label>
+
+        <label class="label">
+            <span>E-mail</span>
+            <input type="email" name="email" class="campo" placeholder="Digite seu e-mail" required="" />
+        </label>
+
+        <label class="label">
+            <span>Assunto</span>
+            <input type="text" name="assunto" class="campo" placeholder="Digite um assunto" required="" />
+        </label>
+        <label class="naoexibir">
+            <span>Não preencher:</span><br>
+            <input type="text" name="url" value=""></p>
+        </label>
+
+        <label class="label">
+            <span>Mensagem</span>
+            <textarea name="mensagem" class="campo" placeholder="Deixe sua mensagem" required=""></textarea>
+        </label>
+
+        <label class="label">
+
+            <input type="hidden" name="acao" value="enviar">
+            <button type="submit" class="botao"> Enviar </button>
+
+        </label>
+    </form>
+
+    </div>
+
+    <!--######################## FIM  DO VIDEO #########################################-->
+
+    <footer >
+        <img src="img/logo-do-rodape.png">
+        <p>© Copyright 2022 José Wennas.</p>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 0,
+            slidesPerView: 1,
+            autoplay: {
+                delay: 3000,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+
+            effect: 'creative',
+            creativeEffect: {
+                prev: {
+                    // will set `translateZ(-400px)` on previous slides
+                    translate: [0, 0, -400],
+                },
+                next: {
+                    // will set `translateX(100%)` on next slides
+                    translate: ['100%', 0, 0],
+                },
+            },
+        });
+    </script>
+
+</body>
+
+</html>

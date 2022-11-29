@@ -1,0 +1,18 @@
+.tres-hanburgeres{
+
+    margin: 1em;
+    justify-content: center;
+}
+.hamburgueres{
+    text-align: center;
+    padding: 1em;
+}
+
+.burguer01, .burguer02, .burguer03{
+    width:60%;
+    
+}
+
+.tres-hanburgeres p{
+    margin: 0.5em;
+}
